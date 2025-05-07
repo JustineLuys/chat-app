@@ -4,5 +4,5 @@ import { protectRoute } from '../../middlewares/authMiddleware.js'
 
 const usersRouter = Router()
 
-usersRouter.get('', protectRoute, displayAllUsers)
+usersRouter.get('/', protectRoute, displayAllUsers)
 export default usersRouter
