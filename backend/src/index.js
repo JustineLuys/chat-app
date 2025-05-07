@@ -30,5 +30,4 @@ const initApp = async () => {
 
 initApp().catch((e) => {
   console.error(e)
-  exit(1)
 })
